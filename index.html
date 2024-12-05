@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Namari - Free Landing Page Template</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <style>
+.test-btn {
+  display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.button3 {border-radius: 8px;}
+</style>
+<style>
+p {
+  color: #000;
+}
+b {
+  color: #000;
+}
+label {
+  color: #000;
+}
+</style>
+<style>
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 4px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="text"], select, input[type="submit"] {
+      width: 90%;
+      max-width: 400px;
+      padding: 9px;
+      margin: 10px auto;
+      display: block;
+      border: 3px solid #000;
+      border-radius: 15px;
+      box-sizing: border-box;
+    }
+
+
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+</style>
+<style>
+.loader {
+  border: 16px solid #e9473a;
+  border-radius: 50%;
+  border-top: 16px solid #f2d522;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+<style>
+.custom-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="#">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Google+" href="#">
+                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="#">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="#">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="behance" href="#">
+                                    <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#generator">Generator</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#clients">Clients</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>PSN Redeem Codes Free Today</h1>
+                    <h2>Free PlayStation Network Gift card Codes of 2025 Update On Today 100% Working</h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="#generator" class="button">Redeem Now</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+        <!--Generator Tables-->
+        <section id="generator" class="secondary-color text-center scrollto clearfix ">
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>PSN GIFT CARD GENERATOR</h3>
+                    <h2 class="section-title">Claim FREE Psn Gift Cards Codes $10, $20, $30, $50</h2>
+                </div>
+
+                <center>
+    <b>Enter your Email to claim the Gift Card code</b>
+    <input type="text" id="email" name="email" placeholder="Email">
+    <br>
+    <b><label for="amount">Select Amount:</label></b>
+    <select id="amount" name="amount">
+        <option value="$10">$10</option>
+        <option value="$20">$20</option>
+        <option value="$35">$35</option>
+        <option value="$50">$50</option>
+    </select>
+
+    <br /><br />
+    <button class="test-btn">Proceed</button>
+    <p id="test"></p>
+
+    <script>
+        let attempts = 0; // Counter for button clicks
+
+        window.addEventListener('load', () => {
+            document.querySelector('button.test-btn').addEventListener('click', () => {
+                attempts++;
+                if (attempts <= 3) {
+                    document.querySelector('#test').innerHTML = '<div class="loader"></div><h5>Looking for unused codes...</h5>';
+                    setTimeout(() => generateCode(), 15000);
+                } else {
+                    document.querySelector('#test').innerHTML = "<b>You've reached the maximum number of attempts.</b>";
+                    document.querySelector('button.test-btn').disabled = true; // Disable the button
+                }
+            });
+        });
+
+        function generateCode() {
+            const email = document.getElementById('email').value;
+            const amount = document.getElementById('amount').value;
+            const message = `
+                <b>YOUR CODE IS SUCCESSFULLY GENERATED ✅</b>
+                <p>WSGME3D5****</p>
+                <p>Email: ${email}</p>
+                <p>Gift Card Amount: ${amount}</p>
+                <a rel="nofollow" href="https://superfolder.net/1734145" class="custom-button">Final Step</a>
+            `;
+            document.getElementById('test').innerHTML = message;
+        }
+    </script>
+</center>
+
+            </div>
+        </section>
+        <!--End of Generator Tables-->
+
+
+    <!--End Main Content Area-->
+    
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>How To</h3>
+                        <h2 class="section-title">How to Get Free PSN Gift Cards Codes</h2>
+                        <p class="section-subtitle">Now, you might have come across some generators that claim to give you free PSN gift codes without any human verification. It’s important to be cautious with these because some of them might not be legit. But if you find a reliable and trustworthy generator, it can be a great way to score some freebies for your favorite apps and games.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-html5 fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Redeem Code Free</h4>
+                            <p>PSN Redeem Code Free 2024 Today Generator No Survey No Human Verification You Can Achieve Amazing Rewards By Trying Out The Many Offers Within This App To Receive Rewards</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-bolt fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Online Store</h4>
+                            <p>Free PSN Codes Generator No Human Verification Are You Ready To Get Free PSN Gift Cards With The PSN Code Generator You Can Get Free PSN Gift Card Codes To Use On Your Favorite Android Apps And Games Whether You Re Looking For PlayStation Network Gift Card Giveaways PlayStation Network Money Generators Or PlayStation Network Card Generators</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-tablet fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Blogging</h4>
+                            <p>Free Play Store Redeem Code Generator No Survey No Human Verification Anyway Guys These Are Codes That Can Only Be Redeemed Once Some Codes Only Work For Some Specific Apps So You Have To Check All The Codes Whether Are Working Or Not We Add Updated Redeem Codes As Soon As We Get A New PlayStation Network Redeem Code Free 2024 Today</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-rocket fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Portfolio</h4>
+                            <p>Hey there! It sounds like you’re interested in PSN gift card generators. You might be looking for a way to get some free PSN gift codes without human verification, right? Well, you’re in luck because I’ve got some cool info to share with you!First off, let’s talk about PlayStation Network gift cards. They’re awesome because they let you buy all sorts of cool stuff like apps, games, movies, music, and more from the PlayStation Network Store.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+
+        <!--Content Section-->
+        <div id="services" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>So, what about the PSN gift card generator 2024? That sounds like something from the future, doesn’t it? Well, who knows what cool advancements might be in store for gift card generators in the future! It’s always exciting to think about what’s coming next.</q>
+                        <footer>— Brown Doe, Happy Customer</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>WE'RE</h3>
+                        <h2 class="section-title">Professional</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+                    <p>In conclusion, PlayStation Network gift card generators can be a fun way to score some freebies for your favorite digital goodies. Just remember to stay safe and only use trustworthy generators. And who knows, maybe in 2024, we’ll be seeing some even more advanced and exciting developments in the world of gift card generators!
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                    
+                </div>
+                <!--End Content Right Side-->
+
+                <div class="col-3">
+                    <img src="images/dancer.jpg" alt="Dancer"/>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+        <!--Testimonials-->
+        
+
+        <!--Clients-->
+        <section id="clients" class="scrollto clearfix">
+            <div class="row clearfix">
+
+                <div class="col-3">
+
+                    <div class="section-heading">
+                        <h3>Support</h3>
+                        <h2 class="section-title">Support 24/7</h2>
+                        <p class="section-subtitle">We’re Reply Monday to Friday 09:30 AM to 6:35 PM (GMT-5)Time in New York, NY, USA</p>
+                        <p>Support@unusedredeemcode.site</p>
+                    </div>
+
+                </div>
+
+                <div class="section-heading">
+                        <h3>Working</h3>
+                        <h2 class="section-title">It’s 100% Working</h2>
+                        <p class="section-subtitle">When it comes to using a gift card generator, it’s important to always prioritize safety and security. Make sure to choose a generator that doesn’t require any sketchy human verification steps or personal information. You want to enjoy your free gift cards without any hassle or risks.</p>
+                    </div>
+
+            </div>
+        </section>
+        <!--End of Clients-->
+
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Made with love by <a href="#">ShapingRain</a></p>
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                <li>
+                    <a target="_blank" title="Facebook" href="#">
+                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Google+" href="#">
+                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Twitter" href="#">
+                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Instagram" href="#">
+                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="behance" href="#">
+                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                    </a>
+                </li>
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>
